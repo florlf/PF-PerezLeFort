@@ -9,9 +9,7 @@
 
 body {
     min-height: 100vh;
-    background-image: url(../assets/img/fondo.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: #fffff0;
 }
 
 .logoheader {
@@ -24,7 +22,340 @@ body {
     padding-right: 30px;
 }
 
-.navbar a:hover {
-    color: #ad63ad;
+.navbar ul li a {
+    color: #1c1f2c;
 }
 
+.navbar a:hover {
+    color: #bd64bd;
+}
+
+/*BANNER*/
+
+#banner {
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.titulo-principal {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #1c1f2c;
+}
+
+.titulo-sec {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 120px;
+    color: #1c1f2c;
+}
+
+.parrafo {
+    color: #1c1f2c;
+}
+
+.custom-img1 {
+    margin-top: 40px;
+    width: 500px;
+    height: auto;
+}
+
+.custom-img2 {
+    margin-top: 120px;
+    width: 600px;
+    height: auto;
+}
+
+
+/*SECCION 2*/
+
+#seccion-2 {
+    padding: 80px 0;
+    background-color: #1c1f2c;
+}
+
+.service-img {
+    width: 75px;
+    margin-top: 20px;
+}
+
+.titulo-servicio {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fffff0;
+}
+
+.parrafo-servicio {
+    font-size: 15px;
+    color: #fffff0;
+}
+
+.servicios {
+    padding: 20px;
+}
+
+.servicios .titulo-servicio {
+    padding: 5px;
+    margin-top: 25px;
+    color: #fffff0;
+}
+
+.servicio-img {
+    margin-top: 65px;
+    width: 70px;
+    height: auto;
+}
+
+.titulo {
+    color: #fffff0;
+    font-weight: 500;
+}
+
+.titulo::before {
+    content: '';
+    background: #fcbcfc;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+/*SECCION 3*/
+
+#seccion-3 {
+    background-color: #fffff0;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.titulo-2 {
+    color: #1c1f2c;
+    font-weight: 600;
+}
+
+.premium-subtitulo {
+    color: #1c1f2c;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+.premium ul li {
+    color: #1c1f2c;
+}
+
+/*SECCION 4*/
+
+#seccion-4 {
+    background-color: #1c1f2c;
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+.titulo-3 {
+    color: #fffff0;
+    font-weight: 600;
+}
+
+.parrafo-nosotros {
+    color: #fffff0;
+    line-height: 200%;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #10131d; 
+    padding: 40px 0 10px;
+}
+
+.row .row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-footer {
+    width: 13%;
+    height: auto;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-col ul li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 17px;
+    color: #fffff0;
+    font-weight: 300;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #d86fd8;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li {
+    font-size: 15px;
+    color: #949494;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li:hover {
+    color: #fffff0;
+    padding-left: 5px;
+}
+
+.footer-col .links-redes a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fffff0;
+    transition: all 0.5s ease;
+}
+
+.footer-col .links-redes a:hover {
+    color: #24262b;
+    background-color: #fffff0;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    color: #949494;
+    margin-top: 40px;
+  }
+
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574) {
+    .footer-col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/*SECCIÓN - MEDIOS DE PAGO*/
+
+#medios-pago1 {
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.titulo-pagos {
+    font-size: 35px;
+    font-weight: 700;
+    color: #1c1f2c;
+    margin-top: 20px;
+}
+
+.pagos-img {
+    margin-top: 30px;
+    width: 100px;
+    height: auto;
+}
+
+.parrafo-pagos {
+    font-size: 15px;
+    font-weight: 400;
+    color: #1c1f2c;
+    margin-top: 12px;
+    line-height: 200%;
+}
+
+/*SECCIÓN - COMPRA SEGURA*/
+
+#medios-pago2 {
+    background-color: #fffff0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.parrafo-compra-segura {
+    color: #1c1f2c;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    line-height: 200%;
+    font-weight: 600;
+}
+
+.compra-segura {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.shield {
+    width: 30px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+
+.compra-protegida {
+    color: #1c1f2c;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-bottom: 25px;
+}
