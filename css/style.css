@@ -57,6 +57,7 @@ body {
 
 .parrafo {
     color: #1c1f2c;
+    line-height: 200%;
 }
 
 .custom-img1 {
@@ -93,6 +94,7 @@ body {
 .parrafo-servicio {
     font-size: 15px;
     color: #fffff0;
+    line-height: 170%;
 }
 
 .servicios {
@@ -150,6 +152,11 @@ body {
 .premium ul li {
     color: #1c1f2c;
 }
+
+.service-medals {
+    margin-top: 30px;
+}
+
 
 /*SECCION 4*/
 
@@ -358,4 +365,52 @@ a {
     margin-bottom: 0;
     margin-left: 0;
     padding-bottom: 25px;
+}
+
+/*SECCIÓN - LOGIN*/
+
+.login {
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.box-area {
+    width: 930px; 
+}
+
+.bienvenido {
+    color: #10131d;
+}
+
+.form-control {
+    border-width: 2px;
+}
+
+#form-check {
+    border-width: 2px;
+}
+
+.right-box {
+    padding: 40px 30px 40px 40px;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .box-area {
+        margin: 0 10px;
+    }
+
+    .left-box {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .right-box {
+        padding: 20px;
+    }
 }
