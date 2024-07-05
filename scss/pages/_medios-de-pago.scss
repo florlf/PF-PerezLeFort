@@ -1,0 +1,67 @@
+#medios-pago1 {
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+
+    .titulo-pagos {
+        font-size: 35px;
+        font-weight: 700;
+        color: $color-ppal;
+        margin-top: 20px;
+    }
+
+    .pagos-img {
+        margin-top: 30px;
+        width: 100px;
+        height: auto;
+    }
+
+    .parrafo-pagos {
+        font-size: 15px;
+        font-weight: 400;
+        color: $color-ppal;
+        margin-top: 12px;
+        line-height: 200%;
+    }
+}
+
+#medios-pago2 {
+    background-color: $color-sec;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .parrafo-compra-segura {
+        color: $color-ppal;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        line-height: 200%;
+        font-weight: 600;
+    }
+
+    .compra-segura {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0;
+    }
+
+    .shield {
+        width: 30px;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 10px;
+        padding-bottom: 25px;
+    }
+
+    .compra-protegida {
+        color: $color-ppal;
+        font-weight: 600;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: 0;
+        padding-bottom: 25px;
+    }
+}

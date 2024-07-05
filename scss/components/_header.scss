@@ -1,0 +1,22 @@
+.logoheader {
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+}
+
+.navbar {
+    padding-right: 30px;
+
+    ul {
+        li {
+            a {
+                color: #1c1f2c;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    color: #bd64bd;
+                }
+            }
+        }
+    }
+}

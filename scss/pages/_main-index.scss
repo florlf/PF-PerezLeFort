@@ -1,0 +1,132 @@
+#banner {
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    .titulo-principal {
+        font-size: 60px;
+        font-weight: 600;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        color: $color-ppal;
+    }
+    
+    .titulo-sec {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 120px;
+        color: $color-ppal;
+    }
+    
+    .parrafo {
+        color: $color-ppal;
+        line-height: 200%;
+    }
+    
+    .custom-img1 {
+        margin-top: 40px;
+        width: 500px;
+        height: auto;
+    }
+    
+    .custom-img2 {
+        margin-top: 120px;
+        width: 600px;
+        height: auto;
+    }
+}
+
+#seccion-2 {
+    padding: 80px 0;
+    background-color: $color-ppal;
+
+    .servicios {
+        padding: 20px;
+    
+        .titulo-servicio {
+            font-size: 20px;
+            font-weight: 600;
+            color: $color-sec;
+            padding: 5px;
+            margin-top: 25px;
+        }
+
+        .parrafo-servicio {
+            font-size: 15px;
+            color: $color-sec;
+            line-height: 170%;
+        }
+
+        .servicio-img {
+            margin-top: 65px;
+            width: 70px;
+            height: auto;
+        }
+    }
+
+    .titulo {
+        color: $color-sec;
+        font-weight: 500;
+
+        &::before {
+            content: '';
+            background: #fcbcfc;
+            height: 5px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            transform: translateY(63px);
+        }
+    }
+}
+
+#seccion-3 {
+    background-color: $color-sec;
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+    .titulo-2 {
+        color: $color-ppal;
+        font-weight: 600;
+    }
+
+    .premium {
+        .premium-subtitulo {
+            color: $color-ppal;
+            font-size: 25px;
+            font-weight: 500;
+            margin-top: 3%;
+        }
+
+        ul {
+            li {
+                color: $color-ppal;
+            }
+        }
+    }
+
+    .service-medals {
+        margin-top: 30px;
+    }
+}
+
+#seccion-4 {
+    background-color: $color-ppal;
+    padding-top: 65px;
+    padding-bottom: 60px;
+
+    .titulo-3 {
+        color: $color-sec;
+        font-weight: 600;
+    }
+
+    .parrafo-nosotros {
+        color: $color-sec;
+        line-height: 200%;
+        font-weight: 300;
+        text-align: justify;
+    }
+}

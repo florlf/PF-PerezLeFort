@@ -1,0 +1,90 @@
+.footer {
+    background-color: #10131d; 
+    padding: 40px 0 10px;
+
+    .row .row-footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .footer-col {
+        width: 25%;
+        padding: 0 15px; 
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+    
+            li {
+                margin: 0;
+                padding: 0;
+                font-size: 15px;
+                color: #949494;
+                text-decoration: none;
+                font-weight: 300;
+                display: block;
+                transition: all 0.3s ease;
+
+                &:not(:last-child) {
+                    margin-bottom: 10px;
+                }
+
+                &:hover {
+                    color: #fffff0;
+                    padding-left: 5px;
+                }
+            }
+        }
+
+        h4 {
+            font-size: 17px;
+            color: #fffff0;
+            font-weight: 300;
+            margin-bottom: 35px;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                background-color: #d86fd8;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+            }
+        }
+
+        .links-redes {
+            a {
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+                background-color: rgba(255, 255, 255, 0.2);
+                margin: 0 10px 10px 0;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 50%;
+                color: #fffff0;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    color: #24262b;
+                    background-color: #fffff0;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 10px;
+        color: #949494;
+        margin-top: 40px;
+    }
+}

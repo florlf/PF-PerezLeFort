@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $tipografia-ppal;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fffff0;
+    font-family: $tipografia-ppal;
+}
+
+.color-ppal{
+    color: #1c1f2c;
+}
+
+.color-sec{
+    color: #fffff0;
+}

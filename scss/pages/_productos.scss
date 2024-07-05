@@ -1,0 +1,71 @@
+.productos {
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+
+    .titulo-productos {
+        font-size: 35px;
+        font-weight: 700;
+        color: $color-ppal;
+        margin-top: 25px;
+        margin-left: 40px;
+    }
+
+    .subtitulo-guantes {
+        font-size: 30px;
+        font-weight: 500;
+        color: $color-ppal;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    .subtitulo-pines {
+        font-size: 30px;
+        font-weight: 500;
+        color: $color-ppal;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    .card {
+        background-color: $color-sec;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+        .card-img-top {
+            width: 250px;
+            height: auto;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .btn-custom {
+            background-color: #8f9bc4;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: #9e5cca;
+                color: #fff;
+            }
+        }
+        
+        .card-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .card-text {
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574) {
+    .footer-col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box-area {
+        margin: 0 10px;
+    }
+
+    .left-box {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .right-box {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .contacto-box {
+        grid-template-columns: 1fr;
+    }
+
+    .left iframe {
+        padding: 0;
+    }
+}
