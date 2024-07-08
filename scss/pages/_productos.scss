@@ -1,3 +1,21 @@
+.boton-flecha {
+    position: fixed;
+    background-color: transparent;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 50px;
+    cursor: pointer;
+    z-index: 1000;
+
+    i {
+        color: #9e5cca;
+        transition: all 0.5s ease;
+    }
+}
+
 .productos {
     background-image: url(../assets/img/fondo.jpg);
     background-size: cover;
@@ -13,19 +31,11 @@
     }
 
     .subtitulo-guantes {
-        font-size: 30px;
-        font-weight: 500;
-        color: $color-ppal;
-        margin-top: 15px;
-        margin-left: 40px;
+        @include productos-sub(30px, 500, 15px, 40px)
     }
 
     .subtitulo-pines {
-        font-size: 30px;
-        font-weight: 500;
-        color: $color-ppal;
-        margin-top: 15px;
-        margin-left: 40px;
+        @include productos-sub(30px, 500, 15px, 40px)
     }
 
     .card {
