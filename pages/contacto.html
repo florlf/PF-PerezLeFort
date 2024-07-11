@@ -46,31 +46,50 @@
       </nav>
     </header>
 
-    <section class="contacto">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-12">
-            <h1 class="titulo-contacto">CONTACTO</h1>
+    <main>
+      <section class="contacto">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-12">
+              <h1 class="titulo-contacto">CONTACTO</h1>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="container container-contacto">
-        <div class="contacto-box">
-          <div class="left">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168881864242!2d-58.38414532514664!3d-34.60373445749752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1719167106055!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="right">
-            <h2 class="subtitulo-contacto fs-4">Envíanos un mensaje</h2>
-            <input type="text" class="field" placeholder="Nombre">
-            <input type="text" class="field" placeholder="Apellido">
-            <input type="email" class="field" placeholder="Email">
-            <input type="tel" class="field" placeholder="Teléfono">
-            <textarea placeholder="Mensaje" class="field"></textarea>
-            <button class="btn btn-contacto">Enviar</button>
+        <div class="container container-contacto">
+          <div class="contacto-box">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168881864242!2d-58.38414532514664!3d-34.60373445749752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1719167106055!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="right">
+              <h2 class="subtitulo-contacto fs-4">Envíanos un mensaje</h2>
+              <form action="#">
+                <div>
+                  <label for="nombre">Nombre</label>
+                  <input type="text" id="nombre" class="field" placeholder="Nombre" required>
+                </div>
+                <div>
+                  <label for="apellido">Apellido</label>
+                  <input type="text" id="apellido" class="field" placeholder="Apellido" required>
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="field" placeholder="Email" required>
+                </div>
+                <div>
+                  <label for="telefono">Teléfono</label>
+                  <input type="tel" id="telefono" class="field" placeholder="Teléfono" required>
+                </div>
+                <div>
+                  <label for="mensaje">Mensaje</label>
+                  <textarea id="mensaje" class="field" placeholder="Mensaje"></textarea>
+                </div>
+                <button class="btn btn-contacto">Enviar</button>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <footer class="footer">
       <div class="container">
