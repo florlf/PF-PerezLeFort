@@ -15,9 +15,18 @@
     .right-box {
         padding: 40px 30px 40px 40px;
     
-        .form-control {
+        #correo {
             border-width: 2px;
+            border: 2px solid #ced4da;
+            border-radius: 10px;
         }
+
+        #contraseña {
+            border-width: 2px;
+            border: 2px solid #ced4da;
+            border-radius: 10px;
+        }
+        
 
         #form-check {
             border-width: 2px;
